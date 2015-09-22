@@ -1,0 +1,20 @@
+{
+    "name": "light/alipay-demo",
+    "description": "alipay yii2 demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lichunqiang",
+            "email": "light-li@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "light\\alipay\\": "alipay"
+      }
+    }
+}
